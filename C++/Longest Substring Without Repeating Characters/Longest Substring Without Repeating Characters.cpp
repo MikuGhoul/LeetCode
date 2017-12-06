@@ -18,7 +18,6 @@ public:
 				container.insert(*j);
 			}
 		}
-		INT_MIN;
 		ans = (container.size() > ans) ? container.size() : ans;
 		return ans;
 	}
